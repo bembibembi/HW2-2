@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		FB59F124292E1845001E0085 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59F123292E1845001E0085 /* main.swift */; };
+		FB59F12B292E189A001E0085 /* store.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59F12A292E189A001E0085 /* store.swift */; };
+		FB59F12D292E1F46001E0085 /* product.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59F12C292E1F46001E0085 /* product.swift */; };
+		FB59F12F292E22F9001E0085 /* autoPartsStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59F12E292E22F9001E0085 /* autoPartsStore.swift */; };
+		FB59F133292E2EA8001E0085 /* clothesStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = FB59F132292E2EA8001E0085 /* clothesStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +29,10 @@
 /* Begin PBXFileReference section */
 		FB59F120292E1845001E0085 /* HW2-2 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "HW2-2"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FB59F123292E1845001E0085 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		FB59F12A292E189A001E0085 /* store.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = store.swift; sourceTree = "<group>"; };
+		FB59F12C292E1F46001E0085 /* product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = product.swift; sourceTree = "<group>"; };
+		FB59F12E292E22F9001E0085 /* autoPartsStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = autoPartsStore.swift; sourceTree = "<group>"; };
+		FB59F132292E2EA8001E0085 /* clothesStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clothesStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,8 +49,8 @@
 		FB59F117292E1845001E0085 = {
 			isa = PBXGroup;
 			children = (
-				FB59F122292E1845001E0085 /* HW2-2 */,
 				FB59F121292E1845001E0085 /* Products */,
+				FB59F122292E1845001E0085 /* HW2-2 */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,6 +66,10 @@
 			isa = PBXGroup;
 			children = (
 				FB59F123292E1845001E0085 /* main.swift */,
+				FB59F12A292E189A001E0085 /* store.swift */,
+				FB59F12E292E22F9001E0085 /* autoPartsStore.swift */,
+				FB59F12C292E1F46001E0085 /* product.swift */,
+				FB59F132292E2EA8001E0085 /* clothesStore.swift */,
 			);
 			path = "HW2-2";
 			sourceTree = "<group>";
@@ -119,7 +131,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FB59F12D292E1F46001E0085 /* product.swift in Sources */,
+				FB59F133292E2EA8001E0085 /* clothesStore.swift in Sources */,
 				FB59F124292E1845001E0085 /* main.swift in Sources */,
+				FB59F12B292E189A001E0085 /* store.swift in Sources */,
+				FB59F12F292E22F9001E0085 /* autoPartsStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
